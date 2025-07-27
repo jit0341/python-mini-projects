@@ -17,7 +17,7 @@ class QuoteBox(BoxLayout):
         self.add_widget(btn)
 
         # Load quotes from file
-        with open("quotes_100.json", "r", encoding="utf-8") as f:
+        with open("..assets/quotes_100.json", "r", encoding="utf-8") as f:
             data = json.load(f)
             self.quotes = data.get("quotes", [])
 
