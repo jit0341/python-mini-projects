@@ -1,1 +1,41 @@
 archive/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore large test files or media
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.mp4
+*.mkv
+*.avi
+*.exe
+*.iso
+
+# Ignore CSV/JSON backups or experiments
+*.csv
+*.tsv
+*.json
+data/*.csv
+data/*.json
+
+# Ignore any virtual environment folders
+env/
+venv/
+ENV/
+.venv/
+
+# Ignore system-specific or editor files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Ignore specific folders
+large_data/
+downloads/
+temp/
