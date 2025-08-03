@@ -95,7 +95,6 @@ python quote_app.py --file quotes_100.json
 
 python quote_app.py --file quotes_100.json --filter life
 
-
 ---
 
 📦 Output Formats
@@ -293,5 +292,10 @@ MIT License — feel free to use, modify, or share with credit.
 
 
 ---
+## 🖼️ Output Screenshot
 
+Below is a sample output of the `quoteapp.py` script:
+
+![Quote App Output](screenshots/quote_output.jpg)
+---
 
