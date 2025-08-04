@@ -13,14 +13,15 @@ A small motivational quote app built in Python. This project has two versions:
 
 ## 🧪 Files
 
-| File | Description |
-|------|-------------|
-| `console_quote.py` | CLI version of the app |
-| `gui_quote_app.py` | Graphical version using Tkinter |
-| `quote_app_colab.ipynb` | Colab notebook used for dev/testing |
+| File               | Description                            |
+|--------------------|----------------------------------------|
+| `quote_cli.py`     | CLI version of the app (terminal use)  |
+| `gui_quote_app.py` | Graphical version using Tkinter        |
+
+> 📌 `quote_app_colab.ipynb` and `console_quote.py` were removed from the list as they are not part of the current repo.
 
 ## ▶️ How to Run
 
-### Console:
+### Console version:
 ```bash
-python console_quote.py
+python quote_cli.py
