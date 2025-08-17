@@ -1,0 +1,89 @@
+# --- Core scientific stack ---
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.10.5
+pillow==11.0.0   # needs: libjpeg-turbo, libpng, freetype
+
+# --- Networking / requests ---
+requests==2.32.3
+urllib3==2.2.2
+idna==3.10
+certifi==2025.7.14
+charset-normalizer==3.4.2
+
+# --- Web scraping ---
+beautifulsoup4==4.13.4
+soupsieve==2.5
+lxml==4.9.4      # safe older version for Termux (needs libxml2, libxslt)
+cssselect==1.3.0
+Scrapy==2.13.3
+w3lib==2.2.0
+tldextract==5.1.2
+queuelib==1.8.0
+Twisted==25.5.0
+zope.interface==7.0.2
+service-identity==24.2.0
+itemadapter==0.3.0
+itemloaders==1.1.0
+parsel==1.9.0
+
+# --- Automation / OCR ---
+selenium==4.34.0
+pytesseract==0.3.10   # needs: tesseract
+tesserocr==2.7.0      # needs: tesseract
+PyAutoGUI==0.9.54     # needs: tk
+pygetwindow==0.0.9
+pyscreeze==1.0.1
+pymsgbox==1.0.9
+pyrect==0.2.0
+pytweening==1.2.0
+mouseinfo==0.1.3
+
+# --- Security / crypto ---
+cryptography==41.0.7  # last version without Rust
+pyOpenSSL==25.1.0
+pyasn1==0.6.1
+pyasn1-modules==0.4.0
+
+# --- Utility ---
+schedule==1.2.2
+watchdog==4.0.1
+prettytable==3.10.0
+tabulate==0.9.0
+rich==14.1.0
+typer==0.12.3
+sh==2.0.6
+
+# --- Development tools ---
+black==25.1.0
+mypy-extensions==1.1.0
+pyright==1.1.403
+jedi==0.19.1
+prompt-toolkit==3.0.47
+Pygments==2.19.1
+
+# --- PDF / Excel ---
+fpdf==1.7.2
+pypdf==5.8.0
+openpyxl==3.1.5
+et-xmlfile==1.1.0
+
+# --- Async / concurrency ---
+trio==0.26.0
+trio-websocket==0.12.2
+outcome==1.3.0.post0
+sniffio==1.3.1
+incremental==24.7.2
+
+# --- Misc ---
+ujson==5.10.0
+zipp==3.20.0
+importlib-metadata==8.7.0
+platformdirs==4.3.3
+virtualenv==20.26.3
+
+# --- Not working well in Termux ---
+# buildozer==1.5.1.dev0   # Android dev tool, skip
+# Cython==0.29.37         # heavy to compile, often fails
+# pyinstaller==5.13.0     # no support in Termux
+# pyinstaller-hooks-contrib==2025.7
